@@ -1,0 +1,5 @@
+payasos = int(input("Introduce el número de payasos vendidos: "))
+munecas = int(input("Introduce el número de muñecas vendidas: "))
+peso_total = (payasos * 112) + (munecas * 75)
+print("El peso total del paquete es:", peso_total, "g")
+print("se ha vendido un total de", payasos, "payasos y", munecas, "muñecas en el ultimo pedido")
