@@ -4,7 +4,7 @@
 #habitual de una barra de pan, el descuento que se le hace por no ser fresca y el
 #coste final total.
 precio = 3.49
-descuento = 0.6 
+descuento = 0.4 
 barras = int(input("Número de barras vendidas que no son del día: "))
 precio_total = barras * precio 
 precio_descuento = precio_total * descuento
