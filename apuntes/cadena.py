@@ -15,3 +15,4 @@ print("me llamo aymane".replace("aymane","juan"))#replace reemplaza una palabra 
 print("me llamo aymane".find("aymane"))#find busca una palabra en la cadena y devuelve su posicion
 print("me llamo aymane".count("a"))#count cuenta el numero de veces que aparece una palabra en la cadena
 print("aymane \n" *int(3))#\n indica un salto de linea y *int(3) indica que se repita 3 veces
+print("+34-666666666-20" [4:13] )#es una forma de extraer una subcadena de una cadena, en este caso se extrae el numero de telefono sin el prefijo y la extension
