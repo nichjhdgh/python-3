@@ -1,4 +1,6 @@
-Escribir un programa que pregunte al usuario la fecha de su nacimiento en formato 
-dd/mm/aaaa y muestra por pantalla, el día, el mes y el año. Adaptar el programa 
-anterior para que también funcione cuando el día o el mes se introduzcan con un 
-solo carácter
+nacimiento = input("cual es tu fecha de nacimiento: ")
+#print("Dia: ", nacimiento[0:2])
+#print("Mes: ", nacimiento[3:5])
+#print("Ano: ", nacimiento[6:10]) 
+fecha = nacimiento.split("/")
+print("has nacido el dia "+fecha[0]+" del mes "+fecha[1]+" del año " +fecha[2])
