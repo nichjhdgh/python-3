@@ -1,0 +1,5 @@
+nombre = input("dime el nombre del producto :")
+precio = input("dime el precio del producto :")
+unidades = input ("dime la unidades del producto :")
+total = (float(precio) * int(unidades))
+print(f"{nombre} {float(precio):9.2f} {int(unidades):3d} {total:11.2f}")
