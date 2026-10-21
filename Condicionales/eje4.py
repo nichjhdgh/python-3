@@ -6,4 +6,5 @@ if numero % 2 == 0 :
 else :
     print("es numero impar")
 
+
     
